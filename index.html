@@ -16,12 +16,13 @@
     <div class="demo-box">
 
         <div class="demo-box demo-item">
-            <h2>hhhh</h2>
-            <p>description</p>
+            <h2>Демо-версия</h2>
+            <p>За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых
+                проектов. Используя знания и накопленный опыт мы можем...</p>
             <button id="openModalBtn">
                 <div class="openModalBtn">
-                    button
-                    <img src="icon" alt="button icon">
+                    Попробовать бесплатно
+                    <img src="images/arrow.svg" alt="button icon">
                 </div>
             </button>
         </div>
@@ -31,7 +32,7 @@
 
     <div class="images-box">
         <div class="demo-item images-box">
-            <img src="images" alt="demo images">
+            <img src="images/demoImg.svg" alt="demo images">
         </div>
     </div>
 
@@ -39,24 +40,25 @@
 
 <div id="myModal" class="modal">
     <div class="modal-content">
+        <div class="close-box">
             <span class="close">&times;</span>
+        </div>
         <div id="modalDynamicContent" class="dynamic-content">
             <form>
-                <h2>title</h2>
-                <input type="email" placeholder="email">
-                <input type="password" placeholder="password">
+                <h2>Войти в систему</h2>
+                <input type="email" placeholder="Email/Телефон">
+                <input type="password" placeholder="Пароль">
                 <div class="checkbox-wrapper">
                     <input type="checkbox" id="remember-me" name="remember-me">
-                    <label for="remember-me">remember</label>
+                    <label for="remember-me">Запомнить пароль</label>
                 </div>
-                <a href="#">link</a>
-                <button type="submit">login</button>
-                <button type="button">registration</button>
+                <a href="#">Восстановить</a>
+                <button type="submit">Войти</button>
+                <button type="button" id="registration">Зарегистрироваться</button>
             </form>
         </div>
     </div>
 </div>
-
 
 
 <script src="js/main.js"></script>
